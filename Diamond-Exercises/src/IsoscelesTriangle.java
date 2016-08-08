@@ -5,7 +5,8 @@ public class IsoscelesTriangle {
 
     private void printString(int n) {
 
-        for (int i = 1; i <= n; i++) {
+        int i = 1;
+        while (i <= n) {
             String str = "";
             for (int j = i; j <n; j++) {
                 str += " ";
@@ -17,6 +18,7 @@ public class IsoscelesTriangle {
             }
 
             System.out.println(str);
+            i++;
         }
     }
 }

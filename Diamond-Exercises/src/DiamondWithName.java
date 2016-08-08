@@ -1,3 +1,5 @@
+
+
 public class DiamondWithName {
     public static void main(String[] args) {
         new DiamondWithName().printString(3);
@@ -22,7 +24,9 @@ public class DiamondWithName {
 
         System.out.println("DanPing");
 
-        for (int i = n - 1; i > 0; i--) {
+
+        int i = n - 1;
+        while (i > 0) {
             String str = "";
 
             for (int j = i; j < n; j++) {
@@ -35,6 +39,7 @@ public class DiamondWithName {
             }
 
             System.out.println(str);
+            i--;
         }
     }
 }

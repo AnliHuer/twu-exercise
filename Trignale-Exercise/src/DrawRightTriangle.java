@@ -3,6 +3,7 @@ public class DrawRightTriangle {
         new DrawRightTriangle().printString(8);
     }
 
+
     private void printString(int n) {
 
         for (int i = 1; i <= n; i++) {
